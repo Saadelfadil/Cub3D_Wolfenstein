@@ -21,6 +21,12 @@ typedef struct  s_data {
     int         endian;
     int         x;
     int         y;
+    int xp;
+    int yp;
+        void    *mlx;
+    void    *mlx_win;
 }               t_data;
+
+
 
 #endif
